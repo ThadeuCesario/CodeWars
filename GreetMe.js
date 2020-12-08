@@ -5,4 +5,4 @@
 
 const greet = name => `Hello ${name.toLowerCase()}`;
 
-greet('THADEU');
+console.log(greet('THADEU'));
