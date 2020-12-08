@@ -9,7 +9,8 @@ function getVillainName(birthday){
   const d = ["Mustache","Pickle","Hood Ornament","Raisin","Recycling Bin","Potato","Tomato","House Cat","Teaspoon","Laundry Basket"]; 
 
   const findUserMonth = birthday.getMonth() + 1;
-  let findUserDay = (String(birthday.getDate()).split('')).length;
+  let findUserDay = (String(birthday.getDate()).split(''));
+  findUserDay = findUserDay.length > 1 ? findUserDay[1] : findUserDay[0]; 
 
   console.log(findUserDay);
 }
