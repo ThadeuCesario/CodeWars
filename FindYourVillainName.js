@@ -9,7 +9,7 @@ function getVillainName(birthday){
   const d = ["Mustache","Pickle","Hood Ornament","Raisin","Recycling Bin","Potato","Tomato","House Cat","Teaspoon","Laundry Basket"]; 
 
   const findUserMonth = birthday.getMonth() + 1;
-  const findUserDay = birthday.getDay();
+  const findUserDay = birthday;
 
   console.log("mes", findUserMonth);
   console.log("dia", findUserDay);
