@@ -15,4 +15,4 @@ function getVillainName(birthday){
   console.log(findUserDay);
 }
 
-getVillainName(new Date("May 10"));
+getVillainName(new Date("May 15"));
