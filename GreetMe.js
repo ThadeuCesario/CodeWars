@@ -4,7 +4,7 @@
 */
 
 var greet = function(name) {
-
+  console.log(name);
 };
 
 greet('riley');
