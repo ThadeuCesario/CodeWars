@@ -6,3 +6,5 @@
 var greet = function(name) {
 
 };
+
+greet('riley');
