@@ -10,4 +10,4 @@ function getVillainName(birthday){
   console.log("checking birthday", birthday);
 }
 
-getVillainName(new Date("May 3");
+getVillainName(new Date("May 3"));
