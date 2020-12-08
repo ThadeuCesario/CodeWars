@@ -3,6 +3,6 @@
  Write a method that takes one argument as name and then greets that name, capitalized and ends with an exclamation point.
 */
 
-const greet = name => `Hello ${name.to}`;
+const greet = name => `Hello ${name.toLowerCase()}`;
 
 greet('riley');
