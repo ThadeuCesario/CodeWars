@@ -7,9 +7,8 @@ Create a function that returns a villain name based on the user's birthday. The 
 function getVillainName(birthday){
   const m = ["Evil","Vile","Cruel","Trashy","Despicable","Embarrassing","Disreputable","Atrocious","Twirling","Orange","Terrifying","Awkward"];
   const d = ["Mustache","Pickle","Hood Ornament","Raisin","Recycling Bin","Potato","Tomato","House Cat","Teaspoon","Laundry Basket"];
-  console.log("checking birthday", birthday);
-
-  console.log(typeof birthday);
+  const findUserMonth = String(birthday).split('T');
+  console.log(findUserMonth);
 }
 
 getVillainName(new Date("May 3"));
