@@ -8,9 +8,8 @@ function getVillainName(birthday){
   const m = ["Evil","Vile","Cruel","Trashy","Despicable","Embarrassing","Disreputable","Atrocious","Twirling","Orange","Terrifying","Awkward"];
   const d = ["Mustache","Pickle","Hood Ornament","Raisin","Recycling Bin","Potato","Tomato","House Cat","Teaspoon","Laundry Basket"];
   console.log("checking birthday", birthday);
-  
-  const findMonth = birthday.split('T');
-  console.log(findMonth);
+
+  console.log(typeof birthday);
 }
 
 getVillainName(new Date("May 3"));
