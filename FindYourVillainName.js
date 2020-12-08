@@ -11,7 +11,6 @@ function getVillainName(birthday){
   const findUserMonth = birthday.getMonth();
   let findUserDay = (String(birthday.getDate()).split(''));
   findUserDay = findUserDay.length > 1 ? findUserDay[1] : findUserDay[0]; 
-  console.log("auto save command, from vscode.")
   return `${m[findUserMonth]} ${d[findUserDay]}`
 }
 
