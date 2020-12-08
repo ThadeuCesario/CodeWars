@@ -12,9 +12,9 @@ function getVillainName(birthday){
   const findUserDay = birthday.getMonth();
   const findUserMonth = String(birthday);
 
-  console.log(findUserMonth);
-  console.log(birthday);
-  console.log(String(birthday));
+  //console.log(findUserMonth);
+  //console.log(birthday);
+  //console.log(String(birthday));
 }
 
 getVillainName(new Date("May 3"));
