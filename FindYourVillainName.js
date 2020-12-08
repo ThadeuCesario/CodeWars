@@ -11,7 +11,7 @@ function getVillainName(birthday){
   const findUserMonth = birthday.getMonth() + 1;
   const findUserDay = birthday.getDay();
 
-  console.log(typeof findUserDay);
+  console.log(typeof findUserDay.length);
   
 }
 
