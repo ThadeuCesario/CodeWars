@@ -12,7 +12,8 @@ function getVillainName(birthday){
   let findUserDay = (String(birthday.getDate()).split(''));
   findUserDay = findUserDay.length > 1 ? findUserDay[1] : findUserDay[0]; 
 
-  console.log(findUserDay);
+  console.log("month", findUserMonth);
+  console.log("day", findUserDay);
 }
 
 getVillainName(new Date("May 2"));
