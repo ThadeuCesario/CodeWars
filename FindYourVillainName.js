@@ -13,9 +13,6 @@ function getVillainName(birthday){
 
   console.log("mes", findUserMonth);
   console.log("dia", findUserDay);
-
-  if
-
 }
 
 getVillainName(new Date("May 10"));
