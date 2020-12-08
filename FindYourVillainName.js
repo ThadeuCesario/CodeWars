@@ -10,6 +10,7 @@ function getVillainName(birthday){
   const findUserMonth = String(birthday).split('T');
   console.log(findUserMonth);
   console.log(birthday);
+  console.log(String(birthday));
 }
 
 getVillainName(new Date("May 3"));
